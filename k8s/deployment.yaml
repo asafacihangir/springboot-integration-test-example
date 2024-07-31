@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: packt-modern-api-development-chapter09
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: packt-modern-api-development-chapter09
+  template:
+    metadata:
+      labels:
+        app: packt-modern-api-development-chapter09
+    spec:
+      containers:
+      - name: packt-modern-api-development-chapter09
+        image: packt-modern-api-development-chapter09:0.0.1-SNAPSHOT
+        ports:
+        - containerPort: 8080
