@@ -4,7 +4,7 @@
 
 ---
 
-Bu çalışmada, REST API'lerini JWT (JSON Web Tokens) ve Spring Security kullanarak güvenli hale getirmeyi ve kullanıcı rollerine göre yetkilendirme yapmayı öğreneceksiniz. Ayrıca, kullanıcı arayüzü (UI) uygulamasının API'leri nasıl tükettiğini görecek ve API'ler için birim ve entegrasyon testlerini otomatikleştirmeyi keşfedeceksiniz. Son olarak, uygulamanızı konteynerleştirip Kubernetes kümesinde dağıtmayı öğreneceksiniz. Bu süreçler, uygulamanızın güvenli, test edilebilir ve ölçeklenebilir olmasını sağlayacak.
+Bu çalışmada, REST API'lerini JWT (JSON Web Tokens) ve Spring Security kullanarak güvenli hale getirmeyi ve kullanıcı rollerine göre yetkilendirme yapmayı öğreneceksiniz.API'ler için birim ve entegrasyon testlerini otomatikleştirmeyi keşfedeceksiniz. Son olarak, uygulamanızı konteynerleştirip Kubernetes kümesinde dağıtmayı öğreneceksiniz. Bu süreçler, uygulamanızın güvenli, test edilebilir ve ölçeklenebilir olmasını sağlayacak.
 
 ---
 
@@ -195,3 +195,8 @@ Kubernetes, bir konteyner orkestrasyon sistemidir ve uygulama konteynerlerini y�
 ### kubectl Nedir?
 
 kubectl, Kubernetes komut satırı arayüzü (CLI) aracıdır ve bir Kubernetes kümesine karşı komutlar çalıştırmak için kullanılır. kubectl ile Kubernetes kaynaklarını yönetebilirsiniz. Bu bölümde, kubectl'nin `apply` ve `create` komutlarını kullandınız. Bu komutlar, Kubernetes üzerinde uygulamalarınızı ve hizmetlerinizi yönetmenizi sağlar.
+
+
+
+### Resources
+https://github.com/PacktPublishing/Modern-API-Development-with-Spring-6-and-Spring-Boot-3
